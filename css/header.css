@@ -1,0 +1,72 @@
+.header {
+  background: #054D3B;
+  color: white;
+  height: 64px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logo-box {
+  width: 32px;
+  height: 32px;
+  background: var(--accent);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+
+.menu a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu a.active {
+  border-bottom-color: white;
+}
+
+.menu svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: white;
+  stroke-width: 2;
+}
+
+.badge {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 24px;
+  background: var(--accent);
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .menu .label {
+    display: none;
+  }
+}

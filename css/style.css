@@ -1,0 +1,22 @@
+:root[data-theme="emerald"] {
+  --primary: #059669;
+  --accent: #F97316;
+  --bg: #F3FAF7;
+  --card: #FFFFFF;
+  --text: #0F2A22;
+  --footer: #022C22;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
